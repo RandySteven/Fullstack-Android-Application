@@ -1,0 +1,12 @@
+package com.example.demo.enums
+
+enum class ResponseCode(code: Int) {
+    OK(200),
+    POST(201),
+    NO_CONTENT(204),
+
+    BAD_REQUEST(400),
+    UNAUTHORIZED(401),
+    FORBIDDEN(403),
+    NOT_FOUND(404);
+}

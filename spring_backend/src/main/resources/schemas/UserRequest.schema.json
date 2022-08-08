@@ -1,0 +1,14 @@
+{
+  "id": {
+    "type": "string",
+    "required": true
+  },
+  "userName": {
+    "type": "string",
+    "required": true
+  },
+  "userPhone": {
+    "type": "string",
+    "required": true
+  }
+}
